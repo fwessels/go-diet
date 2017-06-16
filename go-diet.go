@@ -25,10 +25,10 @@ import (
 
 var (
 	// main operation modes
-	verbose     = flag.Bool("v", false, "use verbose output")
-	list        = flag.Bool("l", false, "list files that are effected")
-	write       = flag.Bool("w", false, "write result to (source) file instead of stdout")
-	allErrors   = flag.Bool("e", false, "report all errors (not just the first 10 on different lines)")
+	verbose   = flag.Bool("v", false, "use verbose output")
+	list      = flag.Bool("l", false, "list files that are effected")
+	write     = flag.Bool("w", false, "write result to (source) file instead of stdout")
+	allErrors = flag.Bool("e", false, "report all errors (not just the first 10 on different lines)")
 
 	// debugging
 	cpuprofile = flag.String("cpuprofile", "", "write cpu profile to this file")

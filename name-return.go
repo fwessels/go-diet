@@ -44,7 +44,6 @@ func nameReturnValues(file *ast.File) *ast.File {
 	return file
 }
 
-
 func getShortIdent(ident string) (short string) {
 
 	// Convert consecutive capitals into lower case, i.e. "APIErrorCode" --> ApiErrorCode

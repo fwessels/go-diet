@@ -1,10 +1,8 @@
 package main
 
-
 import (
 	"testing"
 )
-
 
 func testShortIdent(t *testing.T, ident, expected string) {
 
